@@ -1,0 +1,72 @@
+﻿.hovertree
+{
+    border: 1px solid #ddd;
+    border-top: 2px solid #999;
+}
+.hovertree h3
+{
+    height: 30px;
+    background-color: #F7F7F7;
+    padding: 0 7px 0 10px;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+    font: 400 14px/30px \5fae\8f6f\96c5\9ed1;
+    margin: 0px;
+}
+.hovertree b
+{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 7px 8px 0 0;
+    background: url(hovertree.png) no-repeat -20px 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.hovertree ul
+{
+    overflow: hidden;
+    display: none;
+    padding: 6px 0;
+    border-top: 1px solid #ddd;
+    zoom: 1;
+    margin: 0px;
+}
+.hovertree li
+{
+    width: 159px;
+    height: 18px;
+    padding: 3px 15px 3px 35px;
+    overflow: hidden;
+}
+.hovertree .current b
+{
+    background: url(hovertree.png) no-repeat -37px 0;
+}
+        
+.hovertree .current ul
+{
+    display: block;
+}
+        
+.hovertree .item a
+{
+    height: 47px;
+    background: 0 0;
+    font-style: normal;
+    font-size: 11px;
+    font-family: \5fae\8f6f\96c5\9ed1;
+    color: #666;
+    text-decoration: none;
+}
+        
+.hovertree .item a:hover
+{
+    height: 47px;
+    background: 0 0;
+    font-style: normal;
+    font-size: 11px;
+    font-family: \5fae\8f6f\96c5\9ed1;
+    color: #666;
+    text-decoration:underline;
+}

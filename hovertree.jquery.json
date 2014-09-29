@@ -1,0 +1,34 @@
+﻿{
+"name": "hovertree",
+"title": "hovertree",
+"description": "jQuery plugin.Tree Menu.Accordion Menu.",
+"keywords": [
+"hovertree",
+"UI",
+"jQuery"
+],
+ "version": "0.1.0",
+ "author": {
+"name": "KeLeyi",
+"url": "http://keleyi.com"
+},
+"maintainers": [
+{
+"name": "KeLeyi",
+"url": "http://keleyi.com"
+}
+],
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/keleyi/hovertree/blob/master/LICENSE"
+}
+],
+"homepage": "http://keleyi.com/",
+"docs": "https://github.com/keleyi/hovertree",
+"download": "https://github.com/keleyi/hovertree",
+"demo": "http://keleyi.com/jq/hovertree/",
+"dependencies": {
+"jquery": ">=1.9"
+}
+}
