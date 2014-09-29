@@ -1,4 +1,11 @@
-﻿.hovertree
+﻿/*!
+* HoverTree(jQuery Menu)
+* version: 0.1.0
+* Copyright (c) 2014 KeLeyi
+* http://keleyi.com
+* http://keleyi.com/jq/hovertree/
+*/
+.hovertree
 {
     border: 1px solid #ddd;
     border-top: 2px solid #999;
