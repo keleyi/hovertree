@@ -1,6 +1,6 @@
 ﻿/*!
 * HoverTree(jQuery Menu)
-* version: 0.1.0
+* version: 0.1.2
 * Copyright (c) 2014 KeLeyi
 * http://keleyi.com
 * http://keleyi.com/jq/hovertree/
@@ -20,43 +20,55 @@
     font: 400 14px/30px \5fae\8f6f\96c5\9ed1;
     margin: 0px;
 }
-.hovertree b
+.hovertreeitem h3 b
 {
     float: left;
     width: 16px;
     height: 16px;
     margin: 7px 8px 0 0;
-    background: url(hovertree.png) no-repeat -20px 0;
+    background: url(hovertree.png) no-repeat -22px 0;
     overflow: hidden;
     cursor: pointer;
 }
-.hovertree ul
+.hovertreeitem ul
+{
+    padding:0px;
+    }
+.hovertreeitem>ul
 {
     overflow: hidden;
     display: none;
-    padding: 6px 0;
+    padding: 6px 0px;
     border-top: 1px solid #ddd;
     zoom: 1;
     margin: 0px;
+    list-style:none;
 }
+
 .hovertree li
 {
     width: 159px;
     height: 18px;
     padding: 3px 15px 3px 35px;
     overflow: hidden;
+    list-style:none;
+    margin:0px;
+    background-color:White;
 }
-.hovertree .current b
+.hovertree .hvtcurrent h3 b
 {
-    background: url(hovertree.png) no-repeat -37px 0;
+    background: url(hovertree.png) no-repeat -38px 0;
 }
         
-.hovertree .current ul
+.hovertree .hvtcurrent ul
 {
     display: block;
+    list-style:none;
+    margin:0px;
+    padding:0px;
 }
         
-.hovertree .item a
+.hovertree .hovertreeitem a
 {
     height: 47px;
     background: 0 0;
@@ -67,7 +79,7 @@
     text-decoration: none;
 }
         
-.hovertree .item a:hover
+.hovertree .hovertreeitem a:hover
 {
     height: 47px;
     background: 0 0;
@@ -76,4 +88,26 @@
     font-family: \5fae\8f6f\96c5\9ed1;
     color: #666;
     text-decoration:underline;
+}
+
+.hovertreeitem ul li a
+{
+    display:block;
+}
+
+.hovertreeitem ul li b
+{
+display:inline-block;
+width: 0;
+height: 0;
+border-width: 4px 4px;
+border-style: dashed dashed dashed solid;
+border-color: transparent transparent transparent gray;
+font-size: 0;
+line-height: 0;
+-moz-transition: -moz-transform .2s ease-in;
+-o-transition: -o-transform .2s ease-in;
+transition: transform .2s ease-in;
+vertical-align:middle;
+margin-left:5px
 }

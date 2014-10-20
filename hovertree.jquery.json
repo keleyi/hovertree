@@ -1,13 +1,13 @@
 ﻿{
 "name": "hovertree",
-"title": "hovertree",
+"title": "HoverTree",
 "description": "jQuery plugin.Tree Menu.Accordion Menu.",
 "keywords": [
 "hovertree",
 "UI",
-"jQuery"
+"Menu"
 ],
- "version": "0.1.0",
+ "version": "0.1.2",
  "author": {
 "name": "KeLeyi",
 "url": "http://keleyi.com"

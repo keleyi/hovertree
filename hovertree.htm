@@ -1,28 +1,55 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>hovertree</title><base target="_blank" />
+    <title>hovertree - 0.1.2</title><base target="_blank" />
     <link href="css/jquery.hovertree.css" type="text/css" rel="Stylesheet" />
     <script type="text/javascript" src="http://keleyi.com/keleyi/pmedia/jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.hovertree.js"></script>
 </head>
 <body>
-
-<div id="keleyihovertree" class="hovertree">
-    <div class="item current">
+<div><h3>HoverTree 0.1.2</h3></div>
+<div id="keleyihovertree" class="hovertree" style="width:200px">
+    <div class="hovertreeitem hvtcurrent">
         <h3>
-            <b></b>Web前端</h3>
+            <b></b><a href="http://keleyi.com/menu/webqd/">Web前端</a></h3>
         <ul>
-            <li><a href="http://keleyi.com/menu/jquery/">jquery</a></li>
-            <li><a href="http://keleyi.com/menu/javascript/">javascript</a></li>
+       <li><a href="http://keleyi.com/menu/jquery/">jquery</a></li>
+        <li><a href="http://keleyi.com">Folder 2</a>
+  <ul>
+  <li><a href="http://keleyi.com">Sub Item 2.1</a></li>
+  <li><a href="http://keleyi.com">Folder 2.2</a>
+    <ul>
+    <li><a href="http://keleyi.com">Sub Item 2.2.1</a></li>
+    <li><a href="http://keleyi.com">Sub Item 2.2.2</a></li>
+    <li><a href="http://keleyi.com">Folder 2.2.3</a>
+		<ul>
+    		<li><a href="http://keleyi.com">Sub Item 2.2.3.1</a></li>
+    		<li><a href="http://keleyi.com">Sub Item 2.2.3.2</a></li>
+    		<li><a href="http://keleyi.com">Sub Item 2.2.3.3</a></li>
+    		<li><a href="http://keleyi.com">Sub Item 2.2.3.4</a></li>
+    		<li><a href="http://keleyi.com">Sub Item 2.2.3.5</a></li>
+		</ul>
+    </li>
+    <li><a href="http://keleyi.com">Sub Item 2.1.4</a></li>
+    </ul>
+  </li>
+  </ul>
+</li>
+<li><a href="http://keleyi.com/menu/webqd/">web前端</a></li>
+            <li><a href="http://keleyi.com/menu/javascript/">javascript</a>
+            <ul>
+            <li><a href="http://keleyi.com/a/bjad/8590ho6c.htm">JS作用域和闭包解析</a></li>
+            <li><a href="http://keleyi.com/a/bjac/3iote6u9.htm">谷歌粘土js特效</a></li>
+            <li><a href="http://keleyi.com/a/bjac/06ysbxv0.htm">JS实现一次搜索百度和必应</a></li>
+            </ul>
+            </li>
             <li><a href="http://keleyi.com/menu/html5/">html5</a></li>
-            <li><a href="http://keleyi.com/menu/webqd/">web前端</a></li>
             <li><a href="http://keleyi.com/jq/">jQuery插件</a></li>
         </ul>
     </div>
-    <div class="item">
+    <div>
         <h3>
-            <b></b>jQuery Plugins</h3>
+            <b></b><a href="http://keleyi.com/jq/">jQuery Plugins</a></h3>
         <ul>
             <li><a href="http://keleyi.com/keleyi/">keleyi菜单</a></li>
             <li><a href="http://keleyi.com/jq/randomvisit/">RandomVisit</a></li>
@@ -31,9 +58,9 @@
             <li><a href="http://keleyi.com/jq/hovertree/">hovertree</a></li>
         </ul>
     </div>
-    <div class="item">
+    <div class="hovertreeitem">
         <h3>
-            <b></b>工具</h3>
+            <b></b><a href="http://tool.keleyi.com">工具</a></h3>
         <ul>
             <li><a href="http://tool.keleyi.com/t/md5.htm">MD5加密</a></li>
             <li><a href="http://keleyi.com/tool/md5.htm">MD5加密（Silverlight）</a></li>
@@ -43,12 +70,15 @@
             <li><a href="http://tool.keleyi.com/ip/wodeip.htm">查看IP地址</a></li>
             </ul>
     </div>
+    <div>
+    <h3>
+            <b></b><a href="http://keleyi.com/menu/aspnet/">ASP.NET</a></h3>
+    </div>
 </div>
-
-<a href="hovertreegreen.htm">Green Style</a> 
+<a href="http://keleyi.com/jq/hovertree/">Home</a>
 
     <script type="text/javascript">
-        $("#keleyihovertree").hovertree({ "width": "200px"});
+        $("#keleyihovertree").hovertree({ "width": "keleyi", "initStatus": 'keleyi' });
     </script>
 </body>
 </html>
